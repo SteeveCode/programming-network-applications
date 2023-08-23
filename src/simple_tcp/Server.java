@@ -12,13 +12,13 @@ public class Server {
         ServerSocket serverSocket = new ServerSocket(2020); // opening a new port on 20202
         System.out.println("Port 2020 is open. Waiting for connection...");
         Socket socket = serverSocket.accept();
-        System.out.printf("Client " + socket.getInetAddress() + "has connected");
+        System.out.println("Client " + socket.getInetAddress() + " has connected");
 
         // create input & output(I/O) buffers:
         BufferedReader inSocket = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter outSocket = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()), true);
 
-        outSocket.println("Welcome"); // send "Welcome" to the client
+        outSocket.println("Welcome!"); // send "Welcome" to the client
         String message =  inSocket.readLine();
         System.out.println("Client says: " + message); // display client's message in the console
 
