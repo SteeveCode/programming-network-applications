@@ -15,7 +15,8 @@ our socket. They take the following parameters:
 Params:
 in - A character-input stream
 out – A character-output stream, & a boolean (autoFlush); if true, the println, printf, or format methods will flush
-the output buffer
+the output buffer. AutoFlush is necessary because the sender buffer by default will not push out data to the receiver buffer
+if the size of the data does not fill up the buffer size.
 # Send a message to the client using the socket writer object outSocket.println
 # # Receive and store message from the client using the socket reader object inSocket.readLine.
 # Call the close() method on the socket object after everything
@@ -40,7 +41,8 @@ our socket. They take the following parameters:
 Params:
 in - A character-input stream
 out – A character-output stream, & a boolean (autoFlush); if true, the println, printf, or format methods will flush
-the output buffer
+the output buffer. AutoFlush is necessary because the sender buffer by default will not push out data to the receiver buffer
+if the size of the data does not fill up the buffer size.
 # Send a message to the client using the socket writer object outSocket.println
 # # Receive and store message from the client using the socket reader object inSocket.readLine.
 # Call the close() method on the socket object after everything

@@ -1,10 +1,9 @@
-package simple_tcp;
+package simple_tcp_2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
@@ -16,10 +15,13 @@ public class Client {
         // create input & output(I/O) buffers:
         BufferedReader inSocket = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter outSocket = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()), true);
+        Scanner keyboard = new Scanner(System.in);
 
         String message = inSocket.readLine();  // read message from the server
         System.out.println("Server says: " + message);
-        outSocket.println("Thanks!");  // write message to the server
+        System.out.print("Say something to the server: ");
+        message = keyboard.nextLine();
+        outSocket.println(message);  // write message to the server
 
         socket.close();
         System.out.println("Socket is closed");
