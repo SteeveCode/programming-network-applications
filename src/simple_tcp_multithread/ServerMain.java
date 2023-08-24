@@ -13,11 +13,15 @@ public class ServerMain {
         // infinite while loop: wait for new connections
         while(true) {
             Socket socket = server_socket.accept();
-            ServerThread server_thread = new ServerThread(socket);
+            ServerThread server_thread = new ServerThread(socket, this);
             Thread thread = new Thread(server_thread);
             thread.start();
         }
 
+    }
+    private int clientNumber = 1;
+    public int getClientNumber(){
+        return clientNumber++;
     }
 
     public static void main(String[] args) {
