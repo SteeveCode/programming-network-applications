@@ -1,6 +1,6 @@
-How To Program A Network Application
+    How To Program A Network Application
 
-# Create a server class.
+     Create a server class.
 
 The server class will contain two types of socket objects:
 1. Server socket: holds a port in the operating system for our application
@@ -32,7 +32,7 @@ public static void main(String[] args) {
       }
     }
 
-# Create a Client class.
+     Create a Client class.
 
 # Create a new client socket object with the server ip address and port number passed in as constructor arguments. It
 is important to note that the data type for the ip address is a string.
@@ -46,5 +46,43 @@ if the size of the data does not fill up the buffer size.
 # Send a message to the client using the socket writer object outSocket.println
 # # Receive and store message from the client using the socket reader object inSocket.readLine.
 # Call the close() method on the socket object after everything
+
+    Multithreading
+
+A thread is an instance of the same application. It is the same code but we just run them separately for each new client.
+The goal is to enable several clients to talk to the server in parallel. This will be achieved by using threads.
+To create a multithreaded program, you will require the following classes and their dependencies:
+Custom server class
+Custom Thread class
+Custom client class
+
+    Create a custom server main class.
+# Initialize a new server socket object with the port number
+# Display a message that port is open
+# Run an infinite "while" loop that will handle new incoming connection
+# Declare a client socket variable that will receive the incoming connection when the accept() method is called on the
+server socket object
+# Initialize a custom Thread class(server thread) that will accept the client socket as argument.
+# Initialize a new Thread class from the java.lang package that will accept the custom thread object as argument.
+# Call the Thread.start() method
+
+Note:
+The custom Thread class will hold all the code that defines the task needed by the server to interact with each client
+
+    Create a custom Thread class.
+# The thread class must implement the Runnable interface
+
+
+
+
+Note:
+In Java, the Runnable interface is a part of the java.lang package and is used to define a contract for objects that
+represent a task that can be executed concurrently by a thread. It's commonly used in scenarios where you want to
+separate the task's logic from the thread's management. Classes that implement the Runnable interface are required to
+provide an implementation for the run() abstract method, which contains the code that defines the task to be performed
+when the thread is executed. This method represents the entry point for the thread's execution
+
+
+
 
 

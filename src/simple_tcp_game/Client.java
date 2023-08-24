@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Client {
     public Client()throws Exception{
-        Socket socket = new Socket("localHost", 2020);
+        Socket socket = new Socket("localhost", 2020);
         System.out.println("Successful connection to the server");
 
         // create input & output(I/O) buffers:
