@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c3584a3-1974-4a6c-a846-dcc49cd313c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple_tcp_multithread/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple_tcp_multithread/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple_tcp_multithread/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple_tcp_multithread/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,37 +34,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SteveCode/Documents/Web Projects/Learn/ProgrammingNetworkApplications/src/simple_tcp_game&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/SteveCode/Documents/Web Projects/Learn/ProgrammingNetworkApplications/src/exercises/ex_2b",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\simple_tcp_game" />
-      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\simple_tcp_2" />
+      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex_2b" />
+      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex_2a" />
+      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex_1b" />
+      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex1a" />
+      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercise" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercises.ex_2a" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.exercises.ex_2b.Client">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_tcp_multithread.Client" />
+      <option name="MAIN_CLASS_NAME" value="exercises.ex_2a.Client" />
       <module name="ProgrammingNetworkApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_tcp_multithread.*" />
+          <option name="PATTERN" value="exercises.ex_2a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_tcp_multithread.ServerMain" />
+      <option name="MAIN_CLASS_NAME" value="exercises.ex_2a.ServerMain" />
       <module name="ProgrammingNetworkApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_tcp_multithread.*" />
+          <option name="PATTERN" value="exercises.ex_2a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple_tcp_2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_tcp_2.Client" />
+    <configuration name="exercises.ex_1b.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ex_1b.Client" />
       <module name="ProgrammingNetworkApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_tcp_2.*" />
+          <option name="PATTERN" value="exercises.ex_1b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +109,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple_tcp_game.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_tcp_game.Client" />
+    <configuration name="exercises.ex_2b.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ex_2b.Client" />
       <module name="ProgrammingNetworkApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_tcp_game.*" />
+          <option name="PATTERN" value="exercises.ex_2b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple_tcp_game.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_tcp_game.Server" />
+    <configuration name="exercises.ex_2b.ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ex_2b.ServerMain" />
       <module name="ProgrammingNetworkApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_tcp_game.*" />
+          <option name="PATTERN" value="exercises.ex_2b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +141,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.exercises.ex_2b.Client" />
+      <item itemvalue="Application.exercises.ex_2b.ServerMain" />
+      <item itemvalue="Application.exercises.ex_1b.Client" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.ServerMain" />
-      <item itemvalue="Application.simple_tcp_2.Client" />
-      <item itemvalue="Application.simple_tcp_game.Client" />
-      <item itemvalue="Application.simple_tcp_game.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercises.ex_2b.Client" />
+        <item itemvalue="Application.exercises.ex_2b.ServerMain" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ServerMain" />
-        <item itemvalue="Application.simple_tcp_game.Client" />
-        <item itemvalue="Application.simple_tcp_game.Server" />
-        <item itemvalue="Application.simple_tcp_2.Client" />
+        <item itemvalue="Application.exercises.ex_1b.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +168,7 @@
       <workItem from="1692787238906" duration="1177000" />
       <workItem from="1692788529194" duration="5202000" />
       <workItem from="1692810658858" duration="13479000" />
-      <workItem from="1692867477725" duration="15761000" />
+      <workItem from="1692867477725" duration="35725000" />
     </task>
     <servers />
   </component>

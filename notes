@@ -70,7 +70,10 @@ Note:
 The custom Thread class will hold all the code that defines the task needed by the server to interact with each client
 
     Create a custom Thread class.
-# The thread class must implement the Runnable interface
+# The custom thread class must implement the Runnable interface
+# The class requires a client socket dependency
+# Define the constructor method
+# Override & implement the run() method from the Runnable interface with the codes that will interact with client socket
 
 
 
