@@ -38,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/SteveCode/Documents/Web Projects/Learn/ProgrammingNetworkApplications/src/simple_udp2",
+    "last_opened_file_path": "C:/Users/SteveCode/Documents/Web Projects/Learn/ProgrammingNetworkApplications/src/udp_chat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,11 +50,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\udp_chat" />
       <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\simple_udp2" />
       <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex_2b" />
       <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex_2a" />
       <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex_1b" />
-      <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications\src\exercises\ex1a" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SteveCode\Documents\Web Projects\Learn\ProgrammingNetworkApplications" />
@@ -63,13 +63,26 @@
       <recent name="exercises.ex_2a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.simple_udp2.Sender">
-    <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_udp1.Receiver" />
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udp_chat.ChatClient" />
       <module name="ProgrammingNetworkApplications" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_udp1.*" />
+          <option name="PATTERN" value="udp_chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udp_chat.ChatServer" />
+      <module name="ProgrammingNetworkApplications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udp_chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,24 +98,6 @@
           <option name="PATTERN" value="simple_udp1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercises.ex_2b.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.ex_2b.Client" />
-      <module name="ProgrammingNetworkApplications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.ex_2b.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Receiver" />
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.Sender" />
       <item itemvalue="Application.simple_udp2.Receiver" />
       <item itemvalue="Application.simple_udp2.Sender" />
-      <item itemvalue="Application.exercises.ex_2b.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.simple_udp2.Sender" />
         <item itemvalue="Application.simple_udp2.Receiver" />
         <item itemvalue="Application.Sender" />
-        <item itemvalue="Application.Receiver" />
-        <item itemvalue="Application.exercises.ex_2b.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +157,7 @@
       <workItem from="1692787238906" duration="1177000" />
       <workItem from="1692788529194" duration="5202000" />
       <workItem from="1692810658858" duration="13479000" />
-      <workItem from="1692867477725" duration="41448000" />
+      <workItem from="1692867477725" duration="42340000" />
     </task>
     <servers />
   </component>
